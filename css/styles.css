@@ -1,0 +1,319 @@
+
+*{
+	box-sizing:border-box;
+}
+
+*:focus{
+	outline:2px solid orange;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif
+}
+
+.is-hidden{
+	display:none;
+}
+
+.sr{
+	position:absolute;
+	top:-100000px;
+}
+
+button{
+	cursor:pointer;
+}
+
+kbd{
+	background:#f2f2f2;
+	border:1px solid #aaa;
+	padding:0 3px;
+	border-radius:4px;
+}
+
+code{
+	/*background:#333;*/
+	background-color:#666;
+	color:#fff;
+	padding:1px 3px;
+}
+
+.skip-links{
+	position:absolute;
+	padding:0;
+	margin:0;
+}
+
+.skip-links li{
+	list-style:none;
+	float:left;
+	margin-right:5px;
+}
+
+.skip-links li a{
+	display:block;
+	background:#f2f2f2;
+	color:#014F8F;
+	font-size:70%;
+	font-weight:bold;
+	text-decoration:none;
+	padding:0 5px;
+}
+
+.wrapper{
+	max-width:100%;
+	margin:0 auto;
+}
+
+.inside{
+	width:70em;
+	max-width:99%;
+	margin:auto;
+}
+
+.menu{
+	padding-top:5em;
+	width:15%;
+	max-width:200px;
+	top:0;
+	bottom:0;
+	position:fixed;
+	z-index:10;
+}
+
+.right{
+	margin-left:20%;
+	width:80%;
+	padding:0 2% 2em 2%;
+	background:#F5F5F5;
+}
+
+/**btn config**/
+.config{
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:20;
+	background:#2868C9;
+}
+
+.btn-mega-group{
+	background:#2868C9;
+}
+
+.btn-group{
+	float:left;
+	border-left:3px solid #2868C9;
+}
+
+.btn-group:last-child{
+	border-right:3px solid #2868C9;
+}
+
+.btn-group button{
+	border:0;
+	float:left;
+	font-size:0.75em;
+	padding:2px 15px 10px 15px;
+
+}
+
+.btn-group button:before{
+	content:"";
+	display:inline-block;
+	position:relative;
+	top:5px;
+	margin-right:3px;
+	width:19px;
+	height:20px;
+	background:url('../img/on-off.png') no-repeat left top;
+}
+
+.btn-group button{
+	background:#28468E;
+	color:#fff;
+	border-right:1px solid #aaa;
+}
+
+
+.btn-group button.is-inactive{
+	background:#fafafa;
+	color:#666;
+	border-right:1px solid #999;
+}
+
+.btn-group button.is-inactive:before{
+	background:url('../img/on-off.png') no-repeat right top;
+}
+
+.btn-group button:last-child{
+	border:0
+}
+
+.btn-group button:nth-child(3){
+	border-left:0;
+}
+
+.btn-group button:hover,
+.btn-group button:focus{
+	background:#fff;
+}
+
+.btn-group button:hover,
+.btn-group button:focus{
+	color:#666;
+}
+
+h1{
+	margin:0;
+	font-weight:normal;
+	font-size:1em;
+	padding:5px 0;
+	color:#fff;
+	float:left;
+	margin-top:0.8em;
+}
+
+.logo{
+	float:right;
+	padding:0;
+	margin:0;
+}
+
+/***/
+.them-navigation{
+	clear:both;
+}
+
+.them-navigation ul{
+	margin:auto 0;
+	padding:0
+}
+
+.them-navigation li{
+	font-size:0.8em;
+	list-style:none;
+}
+
+.them-navigation li a{
+	display:block;
+	color:#333;
+	padding:5px 0;
+	text-decoration:none;
+	border-bottom:1px solid #ddd
+}
+.them-navigation li:first-child a{
+	border-top:1px solid #ddd
+}
+.them-navigation li a:hover,
+.them-navigation li a:focus{
+	background:#f2f2f2;
+}
+/****/
+
+main h2{
+	color:#28468E;
+	padding:0;
+	font-weight:normal;
+	padding:2.5em 0 0 0;
+	font-size:2.2em;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:0
+}
+
+#nav-title{
+	text-transform:uppercase;
+	font-size:1em;
+	margin-bottom:0
+}
+
+main h3{
+	color: #723F65;
+	border-top:1px solid #666;
+	padding:0.5em 0;
+	margin-bottom:0;
+}
+
+main h3+h3{
+	border-top:0;
+	padding:0 0 0.5em 0;
+}
+
+main h4{
+	border-top:1px solid #666;
+	padding-top:0.5em;
+	margin-top:0;
+}
+
+main h5{
+	color:#28468E
+}
+
+.type-eval{
+	font-size:0.8em;
+	font-weight:normal;
+}
+
+main a{
+	color:inherit
+}
+
+main a:hover{
+	text-decoration:none;
+}
+
+main p, main li{
+	font-size:0.9em;
+	line-height:1.9em;
+}
+
+main li li{
+	font-size:1em;
+}
+main ul>li{
+	list-style:none;
+	position:relative;
+}
+
+
+main ul>li:before {
+  content: "•";
+  position: absolute;
+  left: -20px;
+  top: 10px;
+  color: #2868C9;
+  font-size: 2em;
+  line-height: 0.3em;
+ }
+ 
+main li li ul li:before {
+  font-size: 1.5em;
+}
+ 
+.note{
+	font-size:0.9em;
+	background:#fff;
+	padding:2px 6px;
+}
+
+
+.clear:after{
+	content:'';
+	display:block;
+	width:100%;
+	clear:both;
+}
+
+footer{
+	padding:0.5em;
+	font-size:0.8em;
+	background:#fff;
+	margin:5em 0 2em 0;
+}
+
+footer p{
+	margin:0
+}
