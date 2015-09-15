@@ -1,0 +1,33 @@
+*{
+	box-sizing:border-box;
+}
+
+*:before,
+*:after{
+	display:block;
+	background:#f2f2f2;
+	font-weight:bold;
+	font-size:100%;
+	font-size:1rem;
+	color:red;
+	font-weight:bold;
+}
+
+header, nav, main, footer{
+	display:block!important;
+	margin-bottom:3px!important;
+	border:2px solid red;
+	padding:3px!important;
+}
+header:before{
+	content:'<header role="'attr(role)'>"';
+}
+nav:before{
+	content:'<nav role="'attr(role)'>"';
+}
+main:before{
+	content:'<main role="'attr(role)'>"';
+}
+footer:before{
+	content:'<footer role="'attr(role)'>"';
+}

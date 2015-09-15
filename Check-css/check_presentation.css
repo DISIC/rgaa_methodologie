@@ -1,0 +1,121 @@
+/** disclaimer : si plusieurs attributs sur même élément : seul le dernier déclaré est révélé **/
+
+*{
+	box-sizing:border-box;
+}
+
+*:before,
+*:after{
+	display:block!important;
+	background:#f2f2f2;
+	font-weight:bold;
+	font-size:100%;
+	font-size:1rem;
+}
+/* higlight 
+	some element like basefont or vlink are obsolete and detect vith validation code criteria
+*/
+basefont,
+blink,
+center, 
+font, 
+marquee, 
+s, 
+strike, 
+tt, 
+u,
+[align], 
+[alink], 
+[background], 
+[basefont],  
+[bgcolor], 
+[border], 
+[color], 
+[link], 
+[text], 
+[vlink],
+[cellpadding],
+[cellspacing],/* width and height filter */
+:not(img)[width],
+:not(img)[height],
+:not(img)[width][height]{
+	border: 1px solid red;
+}
+
+/* insert element tag */
+basefont:before{
+	content:"<basefont>";
+}
+blink:before{
+	content:"<blink>";
+}
+center:before{
+	content:"<center>";
+}
+font:before{
+	content:"<font>";
+}
+marquee:before{
+	content:"<marquee>";
+}
+s:before{
+	content:"<s>";
+}
+strike:before{
+	content:"<strike>";
+}
+tt:before{
+	content:"<tt>";
+}
+u:before{
+	content:"<u>";
+}
+/* insert attribute tag */
+[align]:before{
+	content:"[attr:align]";
+} 
+[alink]:before{
+	content:"[attr:alink]";
+} 
+[background]:before{
+	content:"[attr:background]";
+} 
+[basefont]:before{
+	content:"[attr:basefont]";
+} 
+[bgcolor]:before{
+	content:"[attr:bgcolor]";
+} 
+[border]:before{
+	content:"[attr:border]";
+} 
+[color]:before{
+	content:"[attr:color]";
+}  
+[link]:before{
+	content:"[attr:link]";
+} 
+[text]:before{
+	content:"[attr:text]";
+} 
+[vlink]:before{
+	content:"[attr:vlink]";
+}
+[cellpadding]:before{
+	content:"[attr:cellpadding]";
+}
+[cellspacing]:before{
+	content:"[attr:cellspacing]";
+}
+
+/* width and height filter */
+:not(img)[width]:before,{
+	content:"[attr:width]"
+}
+:not(img)[height]:before{
+	content:"[attr:heigth]"
+}
+:not(img)[width][height]:before{
+	content:"[attr:heigth & width]"
+}
+
