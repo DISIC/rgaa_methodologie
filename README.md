@@ -1,5 +1,7 @@
 # Méthodologie de test RGAA 3
 
+*Cette ressource est également [consutlable en ligne](http://disic.github.io/rgaa_methodologie/) sans avoir à télécharger le dépôt.*
+
 Ce document a été établi dans le cadre des ressources venant accompagner la prise en main de la version 3 du référentiel général d'accessibilité pour les administrations (RGAA&nbsp;3).
 
 Il est destiné à toute personne soucieuse de vérifier la conformité d'un contenu web au RGAA&nbsp;3. Il s'agit d'une méthodologie de tests documentant les étapes permettant de vérifier si un critère du RGAA&nbsp;3 est conforme ou non. Cette méthodologie est donc à utiliser **en complément** du [référentiel technique](http://references.modernisation.gouv.fr/referentiel-technique-0) du RGAA et ne peut être utilisé seul.
