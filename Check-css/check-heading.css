@@ -24,7 +24,7 @@ h3:before{ content:"<h3>";}
 h4:before{ content:"<h4>";}
 h5:before{ content:"<h5>";}
 h6:before{ content:"<h6>";}
-/** pour tous les éléments qui ont un role'heading' et un aria-level on affiche le role et le niveau**/
+/** pour tous les éléments qui ont un role "heading" et un aria-level, on affiche le role et le niveau **/
 *[role="heading"][aria-level]{
 	border:1px solid red;
 }
