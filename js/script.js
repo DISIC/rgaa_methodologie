@@ -5,7 +5,7 @@ var btnToCreate = document.querySelector("[data-button]");
 btnToCreate = btnToCreate.getAttribute("data-button");
 
 var config = {
-	"tool" : ["wat","webdev"],
+	"tool" : ["wat","webdev","chrome"],
 	"level" : ["A","AA","AAA"],
 }
 
@@ -89,8 +89,7 @@ function readCookie() {
 };
 
 for (var prop in config){
-
-	if(btnToCreate.contains(prop)){
+	if(btnToCreate.indexOf(prop) >= 0){
 		var btngroup = document.createElement('div');
 		btngroup.className = "btn-group btn-tool clear";
 		header.appendChild(btngroup);
