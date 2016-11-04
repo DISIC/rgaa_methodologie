@@ -11,7 +11,7 @@
 	font-size:1rem;
 }
 
-a[target="_blank"],
+a[target],
 object,
 embed,
 input,
@@ -22,6 +22,7 @@ button{
   margin-bottom:3px;
   border: 2px solid green;
 }
-a[target="_blank"]:before{
+
+a[target]:before{
   content: "target="attr(target)"";
 }
