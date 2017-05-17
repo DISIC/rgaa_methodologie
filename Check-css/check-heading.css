@@ -2,7 +2,7 @@ h1,h2,h3,h4,h5,h6,[aria-level]{
  display:block!important;
  font-size:100%!important;
 }
-/** pour tous les titres natifs**/
+/** for all native headings **/
 h1,h2,h3,h4,h5,h6{
 	border:1px solid green;
 }
@@ -24,7 +24,7 @@ h3:before{ content:"<h3>";}
 h4:before{ content:"<h4>";}
 h5:before{ content:"<h5>";}
 h6:before{ content:"<h6>";}
-/** pour tous les éléments qui ont un role "heading" et un aria-level, on affiche le role et le niveau **/
+/** for all elements with a role "heading" and an aria-level, the role and levels are displayed **/
 *[role="heading"][aria-level]{
 	border:1px solid red;
 }

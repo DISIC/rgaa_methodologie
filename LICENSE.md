@@ -1,12 +1,15 @@
 # Licence
-Ces documents sont des documents de l'État français placés sous licence ouverte 1.0 ou ultérieure. Vous trouverez des précisions sur cette licence sur le [blog de la mission etalab](http://www.etalab.gouv.fr/licence-ouverte-open-licence).
+These documents are a property of the State of France, under [Open Licence 1.0 (in French)](https://www.etalab.gouv.fr/licence-ouverte-open-licence) or later.
 
-Vous êtes libres de :
-* Reproduire, copier, publier et transmettre ces informations ;
-* Diffuser et redistribuer ces informations ;
-* Adapter, modifier, extraire et transformer ces information, notamment pour créer des informations dérivées ;
-* Exploiter ces informations à  titre commercial, par exemple en la combinant avec d'autres informations, ou enl'incluant dans votre propre produit ou application.
+You are free:
+* To reproduce, copy, publish and transmit the information;
+* To disseminate and redistribute the information;
+* To adapt, modify, transform and extract from the information, for instance to build upon it in order to create "Derivative information";
+* To exploit the information commercially, for example, by combining it with other information, or by including it in your own product or application.
 
-Ces libertés s'appliquent sous réserve de mentionner la paternité de l'information d'origine : sa source et la date de sa dernière mise à jour. Le réutilisateur  peut notamment s'acquitter de cette condition en indiquant un ou des liens hypertextes (URL) renvoyant vers le présent dépôt et assurant une mention effective de sa paternité.
+You must, where you do any of the above :
+* Attribute the information by acknowledging its source (at least the name of the Producer) and the date on which it was last updated.
 
-Cette mention de paternité ne doit ni conférer un caractère officiel à la réutilisation de ces informations, ni suggérer une quelconque reconnaissance ou caution par le producteur de l'information, ou par toute autre entité publique, du réutilisateur ou de sa réutilisation.
+The Re-user may fulfil this condition by providing one or more hypertext links (URL) referring to the information and effectively acknowledging its source.
+
+This attribution shall not suggest any official status or endorsement, by the Producer or any other public entity, of the Re-user or the re-use of the information. 

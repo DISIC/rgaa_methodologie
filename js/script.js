@@ -9,10 +9,10 @@ var config = {
 	"level" : ["A","AA","AAA"],
 }
 
-function CreateBtn(btn) {//constructeur
+function CreateBtn(btn) {//constructor
 	this.text = btn;
-	this.show = "Activer le support ";
-	this.hide = "Masquer le support ";
+	this.show = "Display support ";
+	this.hide = "Hide support ";
 	this.id = "btn-"+btn;
 	this.nameClass = btn;
 }

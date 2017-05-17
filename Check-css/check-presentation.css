@@ -1,4 +1,4 @@
-/** disclaimer : si plusieurs attributs sur même élément : seul le dernier déclaré est révélé **/
+/** disclaimer : if more than one attribute on the same element: only the last declared one is displayed **/
 
 *{
 	box-sizing:border-box;

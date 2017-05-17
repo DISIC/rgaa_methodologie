@@ -25,7 +25,7 @@ li:before,
   color: green!important;
 }
 
-/** messages insérés **/
+/** inserted messages **/
 ul:before { content: '<ul>'; }
 li:before { content: '<li>'; }
 [role="list"]:before { content: 'role="list"'; }

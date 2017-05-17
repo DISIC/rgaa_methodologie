@@ -1,20 +1,21 @@
-# Méthodologie de test RGAA 3
+# RGAA 3 Testing Methodology
 
-*Cette ressource est également [consultable en ligne](http://disic.github.io/rgaa_methodologie/) sans avoir à télécharger le dépôt.*
+*This resource is also [available on line](http://disic.github.io/rgaa_methodology_en/), without requiring to download this repository.*
 
-Ce document a été établi dans le cadre des ressources venant accompagner la prise en main de la version 3 du référentiel général d'accessibilité pour les administrations (RGAA&nbsp;3&nbsp;2016).
+This document has been written as part of the resources that support the application of RGAA (General Framework for Accessibility for the French Administrations), version 3 2016.
 
-Il est destiné à toute personne soucieuse de vérifier la conformité d'un contenu web au RGAA&nbsp;3. Il s'agit d'une méthodologie de tests documentant les étapes permettant de vérifier si un critère du RGAA&nbsp;3&nbsp;2016 est conforme ou non. Cette méthodologie est donc à utiliser **en complément** du [référentiel technique](http://references.modernisation.gouv.fr/rgaa/criteres.html) du RGAA et ne peut être utilisé seul.
+It is aimed at any person willing to check conformance of web content as per the RGAA&nbsp;3. It is a testing methodology, documenting the steps needed to check whether or not a criterion of the RGAA&nbsp;3&nbsp;2016 is conforming. This methodology must therefore be used **in addition** with the [technical reference](https://disic.github.io/rgaa_referentiel_en/criteria.html), and can not be used alone.
 
-Pour chaque critère ou test, deux méthodes au moins sont proposées, une pour Internet <span lang="en">Explorer</span> et une pour <span lang="en">Firefox</span>. Il s'agit de deux des navigateurs également inscrits dans la [base de référence](http://references.modernisation.gouv.fr/rgaa/base-de-reference.html) des tests au lecteur d'écran.
+For each criterion or test, at least two methods are proposed, one for Internet Explorer, and one for Firefox. These browsers are also mentioned in the [reference baseline](https://disic.github.io/rgaa_referentiel_en/baseline.html) for screenreaders testing.
 
-Les méthodes proposées ne sont pas les seules possibles, certains critères ou tests peuvent également être faits sur d'autres navigateurs. Un choix restreint a été fait pour limiter la longueur du document et faciliter sa lisibilité et sa prise en main.
+The proposed methods are not the only possible ones, some of the criteria or tests can be checked with other browsers. A restricted choice has been made, in order to minimize the document's length and ease its understanding.
 
-Parce que nul ne devrait avoir à se doter de logiciels spécifiques et coûteux pour s'assurer de respecter la réglementation, tous les outils proposés pour réaliser les tests ont été choisis pour trois raisons :
-* la fiabilité des résultats et le recours fréquent par les experts du métier&nbsp;
-* la facilité d'utilisation et d'exploitation des résultats, vous épargnant l'installation de logiciels complexes&nbsp;
-* leur caractère gratuit, et dans la mesure du possible libre, ne vous imposant pas de recourir à l'achat d'une licence.
+Because none should need to acquire expensive special software to comply with the law, each tool proposed to perform the tests has been chosen for three reasons:
 
-D'autres outils existent, libre à chacun de les tester et les utiliser.
+* reliability of the results, and frequent use by subject matter experts;
+* ease of use and of results management, sparing the need for complex software set up;
+* free of charge, and whenever possible, not requiring the purchase of a licence.
 
-**À noter que cette méthodologie est un document d'accompagnement visant à vous aider dans l'utilisation du référentiel technique du RGAA&nbsp;3&nbsp;2016. Il ne dispense pas d'une lecture approfondie du référentiel technique, ni d'une formation au RGAA.**
+Other tools exist, anyone is free to test and use them.
+
+**Please note that this methodology is a companion document, aiming at helping with the application of the RGAA&nbsp;3&nbsp;2016 technical reference. It should not prevent you from carefully reading the technical reference, nor getting RGAA training.**
