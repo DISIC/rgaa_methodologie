@@ -1,6 +1,8 @@
 # Méthodologie de test RGAA 3
 
-*Cette ressource est également [consultable en ligne](http://disic.github.io/rgaa_methodologie/) sans avoir à télécharger le dépôt.*
+*Cette ressource est [consultable en ligne](http://disic.github.io/rgaa_methodologie/) sans avoir à télécharger le dépôt.*
+
+*Elle est également disponible en anglais.*
 
 Ce document a été établi dans le cadre des ressources venant accompagner la prise en main de la version 3 du référentiel général d'accessibilité pour les administrations (RGAA&nbsp;3&nbsp;2016).
 
