@@ -1,6 +1,6 @@
 # RGAA 3 Testing Methodology
 
-*This resource is also [available online](http://disic.github.io/rgaa_methodology_en/), without requiring to download this repository.*
+*This resource is also [available online](http://disic.github.io/rgaa_methodologie/en/), without requiring to download this repository.*
 
 This document has been written as part of the resources that support the application of RGAA (General Framework for Accessibility for the French Administrations), version 3 2016.
 
