@@ -1,0 +1,73 @@
+/**navigations cachées**/
+
+.skip-links,
+.github-link, 
+.btn-mega-group,
+.menu,
+.is-hidden{
+	display:none;
+}
+
+body{
+	font-family:'sans-serif'
+}
+
+
+kbd{
+	background:#f2f2f2;
+	border:1px solid #aaa;
+	padding:0 3px;
+	border-radius:4px;
+}
+
+code{
+	/*background:#333;*/
+	background-color:#666;
+	color:#fff;
+	padding:1px 3px;
+}
+
+
+h2{
+	color:#28468E;
+	padding:0;
+	font-weight:normal;
+	padding:2.5em 0 0 0;
+	font-size:2.2em;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:0
+}
+
+h3{
+	color: #723F65;
+	border-top:1px solid #666;
+	padding:0.5em 0;
+	margin-bottom:0;
+}
+
+h3+h3{
+	border-top:0;
+	padding:0 0 0.5em 0;
+}
+
+h4{
+	border-top:1px solid #666;
+	padding-top:0.5em;
+	margin-top:0;
+}
+
+h5{
+	color:#28468E
+}
+
+.type-eval{
+	font-size:0.8em;
+	font-weight:normal;
+}
+
+a{
+	text-decoration:none;
+	color:inherit;
+}
+

@@ -40,6 +40,14 @@ code{
 	padding:1px 3px;
 }
 
+.block-code{
+	display:block;
+	line-height:1.3em;
+	background-color:#000;
+	padding:7px
+	
+}
+
 .skip-links{
 	position:absolute;
 	padding:0;
