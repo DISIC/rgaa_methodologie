@@ -12,6 +12,10 @@
 }
 
 ul,
+ol,
+dl,
+dt,
+dd,
 li,
 [role="list"],
 [role="list"] [role="listitem"] {
@@ -19,7 +23,11 @@ li,
 }
 
 ul:before,
+ol:before,
 li:before,
+dl:before,
+dd:before,
+dt:before,
 [role="list"]:before,
 [role="list"] [role="listitem"]:before {
   color: green!important;
@@ -27,8 +35,13 @@ li:before,
 
 /** messages insérés **/
 ul:before { content: '<ul>'; }
+ol:before { content: '<ol>'; }
 li:before { content: '<li>'; }
+dl:before { content: '<dl>'; }
+dt:before { content: '<dt>'; }
+dd:before { content: '<dd>'; }
 [role="list"]:before { content: 'role="list"'; }
 ul[role="list"]:before {  content: '<ul role="list">'; }
+ol[role="list"]:before {  content: '<ol role="list">'; }
 [role="listitem"]:before { content: 'role="listitem"'; }
 li[role="listitem"]:before { content: '<li role="listitem">'; }

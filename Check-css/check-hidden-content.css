@@ -14,11 +14,19 @@
 }
 
 [hidden]{
+	display:block;
+}
+
+[hidden]:before{
 	content: "[hidden]";
+	display:block;
 }
-[aria-hidden]{
-	content: "[attr:aria-hidden]";
+
+[aria-hidden]:before{
+	content: "[aria-hidden : "attr(aria-hidden)"]";
 }
-[role]{
+
+[role]:before{
 	content: "[role: "attr(role)"]";
 }
+
