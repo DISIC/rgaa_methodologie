@@ -1,0 +1,34 @@
+*{
+	box-sizing:border-box;
+}
+
+*:before,
+*:after{
+	display:block;
+	background:#f2f2f2;
+	font-weight:bold;
+	font-size:100%;
+	font-size:1rem;
+}
+
+ul,
+li,
+[role="list"],
+[role="list"] [role="listitem"] {
+  border: 2px solid green;
+}
+
+ul:before,
+li:before,
+[role="list"]:before,
+[role="list"] [role="listitem"]:before {
+  color: green!important;
+}
+
+/** inserted messages **/
+ul:before { content: '<ul>'; }
+li:before { content: '<li>'; }
+[role="list"]:before { content: 'role="list"'; }
+ul[role="list"]:before {  content: '<ul role="list">'; }
+[role="listitem"]:before { content: 'role="listitem"'; }
+li[role="listitem"]:before { content: '<li role="listitem">'; }

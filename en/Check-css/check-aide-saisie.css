@@ -1,0 +1,36 @@
+*{
+	box-sizing:border-box;
+}
+
+*:before,
+*:after{
+	display:block; 	
+	background:#f2f2f2;
+	font-weight:bold;
+	font-size:100%;
+	font-size:1rem;
+}
+input,
+select,
+textarea{
+	display:block;
+	margin-bottom:5px;
+}
+label{
+  border: 1px solid gray;
+}
+input[aria-label],
+select[aria-label],
+textarea[aria-label]{
+  border: 2px dashed blue;
+}
+input[aria-labelledby],
+select[aria-labelledby],
+textarea[aria-labelledby]{
+  border: 2px dotted red;
+}
+input[aria-describedby],
+select[aria-describedby],
+textarea[aria-describedby]{
+  border: 4px outset BlueViolet;
+}
